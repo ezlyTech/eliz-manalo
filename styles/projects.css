@@ -1,0 +1,56 @@
+/* * *
+MY PROJECTS
+* */
+.myprojects {
+    width: 100%;
+    margin-top: 90px;
+}
+
+.myprojects__item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.myprojects__item-image {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.myprojects__item-image img {
+    border-radius: 20px;
+}
+
+.myprojects__item-texts {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.myprojects__item-texts .top-text {
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.2em;
+}
+
+.myprojects__item-texts .overview {
+    margin-top: 24px;
+    margin-bottom: 42px;
+}
+
+
+
+/* * *
+BUZZ ME
+* */
+.contact {
+    width: 100%;
+    margin-top: 190px;
+}
+
+.contact__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}

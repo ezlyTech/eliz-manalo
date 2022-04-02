@@ -1,0 +1,74 @@
+/* * *
+ABOUT
+* */
+.aboutme {
+    width: 100%;
+    margin-top: 90px;
+}
+
+
+
+/* * *
+EXPERIENCE
+* */
+.experience {
+    width: 100%;
+    margin-top: 190px;
+}
+
+.experience__item {
+    display: flex;
+    width: 100%;
+    margin-top: 36px;
+}
+
+.shape {
+    width: 15%;
+    text-align: center;
+}
+
+.role {
+    width: 25%;
+}
+
+.year {
+    letter-spacing: 0.2em;
+    font-size: 14px;
+}
+
+.description {
+    width: 60%;
+    padding-left: 20px;
+}
+
+
+/* * *
+TECHSTACK
+* */
+.tech-stack {
+    width: 100%;
+    margin-top: 190px;
+}
+
+.tech-stack__logo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    margin-top: 37px;
+}
+
+
+
+/* * *
+BUZZ ME
+* */
+.contact {
+    width: 100%;
+    margin-top: 190px;
+}
+
+.contact__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}

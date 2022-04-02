@@ -1,0 +1,94 @@
+/* * *
+PROFILE
+* */
+.profile {
+    width: 100%;
+    margin-top: 90px;
+}
+
+.profile__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile__img {
+    width: 50%;
+    text-align: center;
+}
+
+.profile__img img{
+    max-width: 395px;
+}
+
+.profile__info-wrapper {
+    width: 50%;
+    text-align: center;
+}
+
+.profile-info {
+    text-align: left;
+}
+
+
+/* * *
+PROJECTS PREVIEW
+* */
+.projects-preview {
+    width: 100%;
+    margin-top: 190px;
+}
+
+.projects-preview__container {
+    /* ... */
+}
+
+.projects-preview__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.projects-preview__cards {
+    display: flex;
+    gap: 55px;
+    margin-top: 72px;
+}
+
+.cards-item {
+    max-width: 446px;
+}
+
+.cards-item__img {
+    position: relative;
+}
+
+.cards-item__img:hover h3, .cards-item__img:hover p {
+    color: #FFFFFF;
+    transition: .3s;
+}
+
+.cards-item__img img {
+    border-radius: 20px;
+}
+
+.cards-item__texts {
+    position: absolute;
+    bottom: 27px;
+    left: 34px;
+}
+
+
+/* * *
+BUZZ ME
+* */
+.contact {
+    width: 100%;
+    margin-top: 190px;
+}
+
+.contact__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
