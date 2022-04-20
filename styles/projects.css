@@ -53,4 +53,38 @@ BUZZ ME
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+
+    /* PROJECTS PREVIEW */
+    .myprojects__item {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .myprojects__item-image {
+        max-width: 446px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .myprojects__item-image img{
+        width: 100%;
+    }
+
+    .myprojects__item-texts {
+        max-width: 446px;
+        width: 100%;
+    }
+
+
+    /* CONTACT */
+    .contact__btn {
+        margin-top: 20px;
+    }
 }

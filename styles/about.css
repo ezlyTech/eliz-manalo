@@ -72,4 +72,52 @@ BUZZ ME
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+
+    /* ABOUT ME */
+    .aboutme__container {
+        max-width: 600px;
+    }
+
+    /* CONTACT */
+    .contact__btn {
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 428px) {
+
+    /* EXPERIENCE */
+    .shape {
+        display: none;
+    }
+
+    .experience__item {
+        flex-direction: column;
+    }
+
+    .role {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+        padding: 0;
+        margin-top: 13px;
+        margin-bottom: 20px;
+    }
+
+    .tech-stack__logo {
+        gap: 40px;
+    }
 }

@@ -18,7 +18,7 @@ PROFILE
 }
 
 .profile__img img{
-    max-width: 395px;
+    max-width: 225px;
 }
 
 .profile__info-wrapper {
@@ -47,12 +47,15 @@ PROJECTS PREVIEW
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 .projects-preview__cards {
     display: flex;
     gap: 55px;
     margin-top: 72px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .cards-item {
@@ -70,6 +73,7 @@ PROJECTS PREVIEW
 
 .cards-item__img img {
     border-radius: 20px;
+    width: 100%;
 }
 
 .cards-item__texts {
@@ -91,4 +95,42 @@ BUZZ ME
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+
+    /* PROFILE */
+    .profile__container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-info {
+        text-align: center;
+    }
+
+    .profile__info-wrapper {
+        margin-top: 50px;
+        width: 80%;
+    }
+
+    .profile__img {
+        width: 100%;
+    }
+
+
+    /* PROJECTS PREVIEW */
+    .projects-preview__btn {
+        margin-top: 20px;
+    }
+
+
+    /* CONTACT */
+    .contact__btn {
+        margin-top: 20px;
+    }
 }
