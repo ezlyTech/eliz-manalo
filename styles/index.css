@@ -18,7 +18,7 @@ PROFILE
 }
 
 .profile__img img{
-    max-width: 225px;
+    max-width: 395px;
 }
 
 .profile__info-wrapper {
@@ -120,6 +120,10 @@ BUZZ ME
 
     .profile__img {
         width: 100%;
+    }
+
+    .profile__img img{
+        max-width: 225px;
     }
 
 
